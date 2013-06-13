@@ -17,9 +17,28 @@ To install the HeyWatch PHP library you need [composer](http://getcomposer.org) 
 curl -sS https://getcomposer.org/installer | php
 ```
 
+In the `composer.json`:
+
+```json
+{
+    "require": {
+        "heywatch/heywatch": "1.*"
+    }
+}
+```
+
+Install the depencies via `composer`:
+
+```console
+php composer.phar install
+```
+
 ## Usage ##
 
 ```php
+// auto load the dependencies
+require_once "vendor/autoload.php";
+
 // login with your HeyWatch username and password
 $hw = new HeyWatch($username, $passwd);
 
