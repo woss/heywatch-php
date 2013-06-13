@@ -1,5 +1,17 @@
 {
     "name": "heywatch/heywatch",
+    "type": "library",
+    "description": "HeyWatch is a Cloud Video Encoding Service",
+    "keywords": ["video", "encoding", "transcoding", "web service", "h264", "cloud"],
+    "homepage": "http://www.heywatchencoding.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno Celeste",
+            "email": "bruno@particle-s.com",
+            "homepage": "http://www.heywatchencoding.com"
+        }
+    ],
     "require": {
         "guzzle/guzzle": "~3.7"
     }
