@@ -11,13 +11,13 @@ For more information:
 
 ## Install ##
 
-To install the HeyWatch PHP library you need [composer](http://getcomposer.org) first:
+To install the HeyWatch PHP library, you need [composer](http://getcomposer.org) first:
 
 ``` console
 curl -sS https://getcomposer.org/installer | php
 ```
 
-In the `composer.json`:
+Edit `composer.json`:
 
 ```json
 {
@@ -27,7 +27,7 @@ In the `composer.json`:
 }
 ```
 
-Install the depencies via `composer`:
+Install the depencies by executing `composer`:
 
 ```console
 php composer.phar install
