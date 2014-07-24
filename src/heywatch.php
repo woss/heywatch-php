@@ -1,7 +1,4 @@
 <?php
-
-require_once 'vendor/autoload.php';
-
 use Guzzle\Http\Client;
 
 class HeyWatch {
@@ -17,7 +14,6 @@ class HeyWatch {
                 'headers' => array('Accept' => 'application/json'),
                 'auth'    => array($user, $password, 'Basic')
             )
-
         ));
 
         $this->client->setUserAgent(self::USER_AGENT);
