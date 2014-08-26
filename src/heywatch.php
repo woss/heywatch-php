@@ -1,7 +1,7 @@
 <?php
 use Guzzle\Http\Client;
 
-class HeyWatch {
+class heywatch {
 
     const HEYWATCH_URL = "https://heywatch.com";
     const USER_AGENT = "HeyWatch PHP/1.0";
